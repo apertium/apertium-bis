@@ -2159,6 +2159,34 @@
 		<e><p><l>yelo<s n="adj"/></l><r>yellow<s n="adj"/></r></p></e>
 		<e><p><l>yusful<s n="adj"/></l><r>useful<s n="adj"/></r></p></e>
 		<e><p><l>yusles<s n="adj"/></l><r>useless<s n="adj"/></r></p></e>
+		
+		<!-- Adverbs !-->
+		<e><p><l>ananit<s n="adv"/></l><r>under<s n="adv"/></r></p></e>
+		<e><p><l>anda<s n="adv"/></l><r>under<s n="adv"/></r></p></e>
+		<e><p><l>andanit<s n="adv"/></l><r>under<s n="adv"/></r></p></e>
+		<e><p><l>aninit<s n="adv"/></l><r>underneath<s n="adv"/></r></p></e>
+		<e><p><l>antap<s n="adv"/></l><r>above<s n="adv"/></r></p></e>
+		<e><p><l>bagari<s n="adv"/></l><r>extremely<s n="adv"/></r></p></e>
+		<e><p><l>bakegen<s n="adv"/></l><r>again<s n="adv"/></r></p></e>
+		<e><p><l>biaen<s n="adv"/></l><r>behind<s n="adv"/></r></p></e>
+		<e><p><l>bifo<s n="adv"/></l><r>before<s n="adv"/></r></p></e>
+		<e><p><l>daerek<s n="adv"/></l><r>directly<s n="adv"/></r></p></e>
+		<e><p><l>daon<s n="adv"/></l><r>down<s n="adv"/></r></p></e>
+		<e><p><l>draeleg<s n="adv"/></l><r>barefoot<s n="adv"/></r></p></e>
+		<e><p><l>kwiktaem<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
+		<e><p><l>lastaem<s n="adv"/></l><r>previously<s n="adv"/></r></p></e>
+		<e><p><l>let<s n="adv"/></l><r>late<s n="adv"/></r></p></e>
+		<e><p><l>naoia<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+		<e><p><l>oltaem<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
+		<e><p><l>raonabaot<s n="adv"/></l><r>approximately<s n="adv"/></r></p></e>
+		<e><p><l>speseli<s n="adv"/></l><r>especially<s n="adv"/></r></p></e>
+		<e><p><l>tu<s n="adv"/></l><r>too<s n="adv"/></r></p></e>
+		<e><p><l>tumora<s n="adv"/></l><r>tomorrow<s n="adv"/></r></p></e>
+		<e><p><l>tunaet<s n="adv"/></l><r>tonight<s n="adv"/></r></p></e>
+		<e><p><l>wanples<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
+		<e><p><l>wantaem<s n="adv"/></l><r>immediately<s n="adv"/></r></p></e>
+		<e><p><l>weples<s n="adv"/></l><r>wherever<s n="adv"/></r></p></e>
+		<e><p><l>yestedei<s n="adv"/></l><r>yesterday<s n="adv"/></r></p></e>
 
 		<!-- Nouns !-->
 		<e><p><l>abatua<s n="n"/></l><r>abattoir<s n="n"/></r></p></e>

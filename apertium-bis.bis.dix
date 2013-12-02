@@ -139,6 +139,10 @@
 		<pardef n="adj__adj">
 			<e>      <p>        <l></l>        <r><s n="adj"/></r></p></e>
    		</pardef>
+		<!-- Adverb paradigm !-->
+		<pardef n="adv__adv">
+			<e>      <p>        <l></l>        <r><s n="adv"/></r></p></e>
+   		</pardef>
 		<!-- Noun paradigm !-->
 		<pardef n="noun__n">
 			<e>      <p>        <l></l>        <r><s n="n"/><s n="sg"/></r></p></e>
@@ -2225,6 +2229,34 @@
 		<e lm="yelo"><i>yelo</i><par n="adj__adj"/></e>
 		<e lm="yusful"><i>yusful</i><par n="adj__adj"/></e>
 		<e lm="yusles"><i>yusles</i><par n="adj__adj"/></e>
+		
+		<!-- Adverbs !-->
+		<e lm="ananit"><i>ananit</i><par n="adv__adv"/></e>
+		<e lm="anda"><i>anda</i><par n="adv__adv"/></e>
+		<e lm="andanit"><i>andanit</i><par n="adv__adv"/></e>
+		<e lm="aninit"><i>aninit</i><par n="adv__adv"/></e>
+		<e lm="antap"><i>antap</i><par n="adv__adv"/></e>
+		<e lm="bagari"><i>bagari</i><par n="adv__adv"/></e>
+		<e lm="bakegen"><i>bakegen</i><par n="adv__adv"/></e>
+		<e lm="biaen"><i>biaen</i><par n="adv__adv"/></e>
+		<e lm="bifo"><i>bifo</i><par n="adv__adv"/></e>
+		<e lm="daerek"><i>daerek</i><par n="adv__adv"/></e>
+		<e lm="daon"><i>daon</i><par n="adv__adv"/></e>
+		<e lm="draeleg"><i>draeleg</i><par n="adv__adv"/></e>
+		<e lm="kwiktaem"><i>kwiktaem</i><par n="adv__adv"/></e>
+		<e lm="lastaem"><i>lastaem</i><par n="adv__adv"/></e>
+		<e lm="let"><i>let</i><par n="adv__adv"/></e>
+		<e lm="naoia"><i>naoia</i><par n="adv__adv"/></e>
+		<e lm="oltaem"><i>oltaem</i><par n="adv__adv"/></e>
+		<e lm="raonabaot"><i>raonabaot</i><par n="adv__adv"/></e>
+		<e lm="speseli"><i>speseli</i><par n="adv__adv"/></e>
+		<e lm="tu"><i>tu</i><par n="adv__adv"/></e>
+		<e lm="tumora"><i>tumora</i><par n="adv__adv"/></e>
+		<e lm="tunaet"><i>tunaet</i><par n="adv__adv"/></e>
+		<e lm="wanples"><i>wanples</i><par n="adv__adv"/></e>
+		<e lm="wantaem"><i>wantaem</i><par n="adv__adv"/></e>
+		<e lm="weples"><i>weples</i><par n="adv__adv"/></e>
+		<e lm="yestedei"><i>yestedei</i><par n="adv__adv"/></e>	
 
 		<!-- Nouns !-->
 		<e lm="abatua"><i>abatua</i><par n="noun__n"/></e>
