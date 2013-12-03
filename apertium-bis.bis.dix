@@ -150,7 +150,7 @@
    		</pardef>
 		<!-- Verb paradigm !-->
 		<pardef n="verb__vblex">
-			<e>      <p>        <l></l>        <r><s n="vblex"/><s n="pres"/></r></p></e>
+			<e>      <p>        <l></l>        <r><s n="vblex"/></r></p></e>
    		</pardef>
 		<!-- Preposition paradigm !-->
 		<pardef n="pr__pr">
@@ -170,6 +170,8 @@
 		<e lm="agensem"><i>agensem</i><par n="pr__pr"/></e>
 		<e lm="bitwin"><i>bitwin</i><par n="pr__pr"/></e>
 		<e lm="blo"><i>blo</i><par n="pr__pr"/></e>
+		<e lm="blong"><i>blong</i><par n="pr__pr"/></e>
+		<e lm="from"><i>from</i><par n="pr__pr"/></e>
 		<e lm="lo"><i>lo</i><par n="pr__pr"/></e>
 		<e lm="long"><i>long</i><par n="pr__pr"/></e>
 		<e lm="wetaot"><i>wetaot</i><par n="pr__pr"/></e>
