@@ -1,3 +1,4 @@
 * text=auto !eol
 /apertium-bis.bis.dix -text
 /apertium-en-bis.en-bis.dix -text
+dev/raw[!!-~]dictionary[!!-~]entries[!!-~]left.txt -text

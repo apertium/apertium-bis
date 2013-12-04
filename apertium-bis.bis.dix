@@ -135,38 +135,42 @@
 		<pardef n="urls">
 			<e>	<re>((www.)[a-z\-]+[.][a-z]+)</re>	<p>	  <l></l>	  <r><s n="num"/></r></p></e>
 		</pardef>
-		<!-- Adjective paradigm !-->
+		<!-- Adjective paradigm -->
 		<pardef n="adj__adj">
 			<e>      <p>        <l></l>        <r><s n="adj"/></r></p></e>
    		</pardef>
-		<!-- Adverb paradigm !-->
+		<!-- Adverb paradigm -->
 		<pardef n="adv__adv">
 			<e>      <p>        <l></l>        <r><s n="adv"/></r></p></e>
    		</pardef>
-		<!-- Noun paradigm !-->
+		<!-- Noun paradigm -->
 		<pardef n="noun__n">
 			<e>      <p>        <l></l>        <r><s n="n"/><s n="sg"/></r></p></e>
 			<e>      <p>        <l></l>        <r><s n="n"/><s n="pl"/></r></p></e>
    		</pardef>
-		<!-- Verb paradigm !-->
+		<!-- Numeral paradigm -->
+		<pardef n="num__num">
+			<e>      <p>        <l></l>        <r><s n="num"/></r></p></e>
+   		</pardef>
+		<!-- Verb paradigm -->
 		<pardef n="verb__vblex">
 			<e>      <p>        <l></l>        <r><s n="vblex"/></r></p></e>
    		</pardef>
-		<!-- Preposition paradigm !-->
+		<!-- Preposition paradigm -->
 		<pardef n="pr__pr">
 			<e>      <p>        <l></l>        <r><s n="pr"/></r></p></e>
 		</pardef>
-		<!-- Interjection paradigm !-->
+		<!-- Interjection paradigm -->
 		<pardef n="ij__ij">
 			<e>      <p>        <l></l>        <r><s n="ij"/></r></p></e>
 		</pardef>
-		<!-- Toponym paradigm !-->
+		<!-- Toponym paradigm -->
 		<pardef n="top__top">
 			<e>      <p>        <l></l>        <r><s n="top"/></r></p></e>
 		</pardef>	
 	</pardefs>
 	<section id="main" type="standard">
-		<!-- Prepositions !-->
+		<!-- Prepositions -->
 		<e lm="agensem"><i>agensem</i><par n="pr__pr"/></e>
 		<e lm="bitwin"><i>bitwin</i><par n="pr__pr"/></e>
 		<e lm="blo"><i>blo</i><par n="pr__pr"/></e>
@@ -176,6 +180,39 @@
 		<e lm="long"><i>long</i><par n="pr__pr"/></e>
 		<e lm="wetaot"><i>wetaot</i><par n="pr__pr"/></e>
 		<e lm="wetem"><i>wetem</i><par n="pr__pr"/></e>
+
+		<!-- Numerals -->
+		<e lm="eit"><i>eit</i><par n="num__num"/></e>
+		<e lm="eiti"><i>eiti</i><par n="num__num"/></e>
+		<e lm="eitin"><i>eitin</i><par n="num__num"/></e>
+		<e lm="fifti"><i>fifti</i><par n="num__num"/></e>
+		<e lm="fiftin"><i>fiftin</i><par n="num__num"/></e>
+		<e lm="handred"><i>handred</i><par n="num__num"/></e>
+		<e lm="seventi"><i>seventi</i><par n="num__num"/></e>
+		<e lm="seventin"><i>seventin</i><par n="num__num"/></e>
+		<e lm="sikis"><i>sikis</i><par n="num__num"/></e>
+		<e lm="siksti"><i>siksti</i><par n="num__num"/></e>
+		<e lm="sikstin"><i>sikstin</i><par n="num__num"/></e>
+		<e lm="teti"><i>teti</i><par n="num__num"/></e>
+		<e lm="tetieit"><i>tetieit</i><par n="num__num"/></e>
+		<e lm="tetifaef"><i>tetifaef</i><par n="num__num"/></e>
+		<e lm="tetifo"><i>tetifo</i><par n="num__num"/></e>
+		<e lm="tetin"><i>tetin</i><par n="num__num"/></e>
+		<e lm="tetinaen"><i>tetinaen</i><par n="num__num"/></e>
+		<e lm="tetiseven"><i>tetiseven</i><par n="num__num"/></e>
+		<e lm="tetisikis"><i>tetisikis</i><par n="num__num"/></e>
+		<e lm="tetitri"><i>tetitri</i><par n="num__num"/></e>
+		<e lm="tetitu"><i>tetitu</i><par n="num__num"/></e>
+		<e lm="tetiwan"><i>tetiwan</i><par n="num__num"/></e>
+		<e lm="tu"><i>tu</i><par n="num__num"/></e>
+		<e lm="twante"><i>twante</i><par n="num__num"/></e>
+		<e lm="twanteeit"><i>twanteeit</i><par n="num__num"/></e>
+		<e lm="twantefaef"><i>twantefaef</i><par n="num__num"/></e>
+		<e lm="twantenaen"><i>twantenaen</i><par n="num__num"/></e>
+		<e lm="twanteseven"><i>twanteseven</i><par n="num__num"/></e>
+		<e lm="twantesikis"><i>twantesikis</i><par n="num__num"/></e>
+		<e lm="twelef"><i>twelef</i><par n="num__num"/></e>
+		<e lm="wan"><i>wan</i><par n="num__num"/></e>
 
 		<!-- Interjections -->
 		<e lm="ako"><i>ako</i><par n="ij__ij"/></e>
@@ -212,7 +249,7 @@
 		<e lm="wem"><i>wem</i><par n="ij__ij"/></e>
 		<e lm="yi"><i>yi</i><par n="ij__ij"/></e>
 		
-		<!-- Toponyms (isles and villages) !-->
+		<!-- Toponyms (isles and villages) -->
 		<e lm="Aala"><i>Aala</i><par n="top__top"/></e>
 		<e lm="Abaone"><i>Abaone</i><par n="top__top"/></e>
 		<e lm="Abnatavoa"><i>Abnatavoa</i><par n="top__top"/></e>
@@ -2016,7 +2053,7 @@
 		<e lm="Yuniel"><i>Yuniel</i><par n="top__top"/></e>
 		<e lm="Yuwunier"><i>Yuwunier</i><par n="top__top"/></e> 		
 
-		<!-- Adjectives !-->
+		<!-- Adjectives -->
 		<e lm="amata"><i>amata</i><par n="adj__adj"/></e>
 		<e lm="barava"><i>barava</i><par n="adj__adj"/></e>
 		<e lm="bigbig"><i>bigbig</i><par n="adj__adj"/></e>
@@ -2232,7 +2269,7 @@
 		<e lm="yusful"><i>yusful</i><par n="adj__adj"/></e>
 		<e lm="yusles"><i>yusles</i><par n="adj__adj"/></e>
 		
-		<!-- Adverbs !-->
+		<!-- Adverbs -->
 		<e lm="ananit"><i>ananit</i><par n="adv__adv"/></e>
 		<e lm="anda"><i>anda</i><par n="adv__adv"/></e>
 		<e lm="andanit"><i>andanit</i><par n="adv__adv"/></e>
@@ -2260,7 +2297,7 @@
 		<e lm="weples"><i>weples</i><par n="adv__adv"/></e>
 		<e lm="yestedei"><i>yestedei</i><par n="adv__adv"/></e>	
 
-		<!-- Nouns !-->
+		<!-- Nouns -->
 		<e lm="abatua"><i>abatua</i><par n="noun__n"/></e>
 		<e lm="Abednego"><i>Abednego</i><par n="noun__n"/></e>
 		<e lm="abiliti"><i>abiliti</i><par n="noun__n"/></e>

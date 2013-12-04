@@ -96,7 +96,7 @@
 	</sdefs>
 
 	<section id="main" type="standard">
-		<!-- Prepositions !-->
+		<!-- Prepositions -->
 		<e><p><l>agensem<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
 		<e><p><l>bitwin<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
 		<e><p><l>blo<s n="pr"/></l><r>belong<s n="pr"/></r></p></e>
@@ -108,7 +108,40 @@
 		<e><p><l>wetaot<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
 		<e><p><l>wetem<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
 
-		<!-- Interjections !-->
+		<!-- Numerals -->
+		<e><p><l>eit<s n="num"/></l><r>eight<s n="num"/></r></p></e>
+		<e><p><l>eiti<s n="num"/></l><r>eighty<s n="num"/></r></p></e>
+		<e><p><l>eitin<s n="num"/></l><r>eighteen<s n="num"/></r></p></e>
+		<e><p><l>fifti<s n="num"/></l><r>fifty<s n="num"/></r></p></e>
+		<e><p><l>fiftin<s n="num"/></l><r>fifteen<s n="num"/></r></p></e>
+		<e><p><l>handred<s n="num"/></l><r>hundred<s n="num"/></r></p></e>
+		<e><p><l>seventi<s n="num"/></l><r>seventy<s n="num"/></r></p></e>
+		<e><p><l>seventin<s n="num"/></l><r>seventeen<s n="num"/></r></p></e>
+		<e><p><l>sikis<s n="num"/></l><r>six<s n="num"/></r></p></e>
+		<e><p><l>siksti<s n="num"/></l><r>sixty<s n="num"/></r></p></e>
+		<e><p><l>sikstin<s n="num"/></l><r>sixteen<s n="num"/></r></p></e>
+		<e><p><l>teti<s n="num"/></l><r>thirty<s n="num"/></r></p></e>
+		<e><p><l>tetieit<s n="num"/></l><r>thirty-eight<s n="num"/></r></p></e>
+		<e><p><l>tetifaef<s n="num"/></l><r>thirty-five<s n="num"/></r></p></e>
+		<e><p><l>tetifo<s n="num"/></l><r>thirty-four<s n="num"/></r></p></e>
+		<e><p><l>tetin<s n="num"/></l><r>thirteen<s n="num"/></r></p></e>
+		<e><p><l>tetinaen<s n="num"/></l><r>thirty-nine<s n="num"/></r></p></e>
+		<e><p><l>tetiseven<s n="num"/></l><r>thirty-seven<s n="num"/></r></p></e>
+		<e><p><l>tetisikis<s n="num"/></l><r>thirty-six<s n="num"/></r></p></e>
+		<e><p><l>tetitri<s n="num"/></l><r>thirty-three<s n="num"/></r></p></e>
+		<e><p><l>tetitu<s n="num"/></l><r>thirty-two<s n="num"/></r></p></e>
+		<e><p><l>tetiwan<s n="num"/></l><r>thirty-one<s n="num"/></r></p></e>
+		<e><p><l>tu<s n="num"/></l><r>two<s n="num"/></r></p></e>
+		<e><p><l>twante<s n="num"/></l><r>twenty<s n="num"/></r></p></e>
+		<e><p><l>twanteeit<s n="num"/></l><r>twenty-eight<s n="num"/></r></p></e>
+		<e><p><l>twantefaef<s n="num"/></l><r>twenty-five<s n="num"/></r></p></e>
+		<e><p><l>twantenaen<s n="num"/></l><r>twenty-nine<s n="num"/></r></p></e>
+		<e><p><l>twanteseven<s n="num"/></l><r>twenty-seven<s n="num"/></r></p></e>
+		<e><p><l>twantesikis<s n="num"/></l><r>twenty-six<s n="num"/></r></p></e>
+		<e><p><l>twelef<s n="num"/></l><r>twelve<s n="num"/></r></p></e>
+		<e><p><l>wan<s n="num"/></l><r>one<s n="num"/></r></p></e>
+
+		<!-- Interjections -->
 		<e><p><l>ako<s n="ij"/></l><r>wow<s n="ij"/></r></p></e>
 		<e><p><l>ale<s n="ij"/></l><r>ok<s n="ij"/></r></p></e>
 		<e><p><l>babae<s n="ij"/></l><r>goodbye<s n="ij"/></r></p></e>
@@ -143,7 +176,7 @@
 		<e><p><l>wem<s n="ij"/></l><r>where<s n="ij"/></r></p></e>
 		<e><p><l>yi<s n="ij"/></l><r>yuk<s n="ij"/></r></p></e>
 
-		<!-- Toponyms !-->
+		<!-- Toponyms -->
 		<e><p><l>Aala<s n="top"/></l><r>Aala<s n="top"/></r></p></e>
 		<e><p><l>Abaone<s n="top"/></l><r>Abaone<s n="top"/></r></p></e>
 		<e><p><l>Abnatavoa<s n="top"/></l><r>Abnatavoa<s n="top"/></r></p></e>
@@ -1947,7 +1980,7 @@
 		<e><p><l>Yuniel<s n="top"/></l><r>Yuniel<s n="top"/></r></p></e>
 		<e><p><l>Yuwunier<s n="top"/></l><r>Yuwunier<s n="top"/></r></p></e>
 
-		<!-- Adjectives !-->
+		<!-- Adjectives -->
 		<e><p><l>amata<s n="adj"/></l><r>amateur<s n="adj"/></r></p></e>
 		<e><p><l>barava<s n="adj"/></l><r>real<s n="adj"/></r></p></e>
 		<e><p><l>bigbig<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
@@ -2163,7 +2196,7 @@
 		<e><p><l>yusful<s n="adj"/></l><r>useful<s n="adj"/></r></p></e>
 		<e><p><l>yusles<s n="adj"/></l><r>useless<s n="adj"/></r></p></e>
 		
-		<!-- Adverbs !-->
+		<!-- Adverbs -->
 		<e><p><l>ananit<s n="adv"/></l><r>under<s n="adv"/></r></p></e>
 		<e><p><l>anda<s n="adv"/></l><r>under<s n="adv"/></r></p></e>
 		<e><p><l>andanit<s n="adv"/></l><r>under<s n="adv"/></r></p></e>
@@ -2191,7 +2224,7 @@
 		<e><p><l>weples<s n="adv"/></l><r>wherever<s n="adv"/></r></p></e>
 		<e><p><l>yestedei<s n="adv"/></l><r>yesterday<s n="adv"/></r></p></e>
 
-		<!-- Nouns !-->
+		<!-- Nouns -->
 		<e><p><l>abatua<s n="n"/></l><r>abattoir<s n="n"/></r></p></e>
 		<e><p><l>Abednego<s n="n"/></l><r>Abednego<s n="n"/></r></p></e>
 		<e><p><l>abiliti<s n="n"/></l><r>ability<s n="n"/></r></p></e>
@@ -4365,7 +4398,7 @@
 		<e><p><l>yut<s n="n"/></l><r>youth<s n="n"/></r></p></e>
 		<e><p><l>Yutikas<s n="n"/></l><r>Eutychus<s n="n"/></r></p></e>
 		
-		<!-- Verbs !-->
+		<!-- Verbs -->
 		<e><p><l>abyusem<s n="vblex"/></l><r>abuse<s n="vblex"/></r></p></e>
 		<e><p><l>ademap<s n="vblex"/></l><r>add<s n="vblex"/></r></p></e>
 		<e><p><l>adoptem<s n="vblex"/></l><r>adopt<s n="vblex"/></r></p></e>
