@@ -135,6 +135,11 @@
 		<pardef n="urls">
 			<e>	<re>((www.)[a-z\-]+[.][a-z]+)</re>	<p>	  <l></l>	  <r><s n="num"/></r></p></e>
 		</pardef>
+		<!-- Determiner paradigm -->
+		<pardef n="det__det">
+			<e>      <p>        <l></l>        <r><s n="det"/></r></p></e>
+   		</pardef>
+   		
 		<!-- Adjective paradigm -->
 		<pardef n="adj__adj">
 			<e>      <p>        <l></l>        <r><s n="adj"/></r></p></e>
@@ -145,8 +150,7 @@
    		</pardef>
 		<!-- Noun paradigm -->
 		<pardef n="noun__n">
-			<e>      <p>        <l></l>        <r><s n="n"/><s n="sg"/></r></p></e>
-			<e>      <p>        <l></l>        <r><s n="n"/><s n="pl"/></r></p></e>
+			<e>      <p>        <l></l>        <r><s n="n"/></r></p></e>
    		</pardef>
 		<!-- Numeral paradigm -->
 		<pardef n="num__num">
@@ -170,6 +174,9 @@
 		</pardef>	
 	</pardefs>
 	<section id="main" type="standard">
+	    <!-- Determiners -->
+	    <e lm="ol"><i>ol</i><par n="det__det"/></e>
+	    
 		<!-- Prepositions -->
 		<e lm="agensem"><i>agensem</i><par n="pr__pr"/></e>
 		<e lm="bitwin"><i>bitwin</i><par n="pr__pr"/></e>
@@ -2145,6 +2152,7 @@
 		<e lm="kruked"><i>kruked</i><par n="adj__adj"/></e>
 		<e lm="kwaet"><i>kwaet</i><par n="adj__adj"/></e>
 		<e lm="kwalifae"><i>kwalifae</i><par n="adj__adj"/></e>
+		<e lm="kwik"><i>kwik</i><par n="adj__adj"/></e>
 		<e lm="laef"><i>laef</i><par n="adj__adj"/></e>
 		<e lm="las"><i>las</i><par n="adj__adj"/></e>
 		<e lm="les"><i>les</i><par n="adj__adj"/></e>
@@ -2283,6 +2291,7 @@
 		<e lm="daon"><i>daon</i><par n="adv__adv"/></e>
 		<e lm="draeleg"><i>draeleg</i><par n="adv__adv"/></e>
 		<e lm="kwiktaem"><i>kwiktaem</i><par n="adv__adv"/></e>
+		<e lm="kwik"><i>kwik</i><par n="adv__adv"/></e>
 		<e lm="lastaem"><i>lastaem</i><par n="adv__adv"/></e>
 		<e lm="let"><i>let</i><par n="adv__adv"/></e>
 		<e lm="naoia"><i>naoia</i><par n="adv__adv"/></e>

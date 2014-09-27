@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transfer>
+<section-def-cats>
+    <def-cat n="nom_sg">
+       <cat-item tags="n.sg"/>
+    </def-cat>
+    <def-cat n="nom_pl">
+       <cat-item tags="n.pl"/>
+    </def-cat>
+    <def-cat n="adv">
+       <cat-item tags="adv.*"/>
+    </def-cat>
+    <def-cat n="adj">
+       <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="the">
+       <cat-item tags="det.def.sp"/>
+    </def-cat>
+</section-def-cats>
+<section-def-attrs>
+    <def-attr n="nbr">
+       <attr-item tags="sg"/>
+       <attr-item tags="pl"/>
+    </def-attr>
+    <def-attr n="a_nom">
+       <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_adj">
+       <attr-item tags="adj"/>
+    </def-attr>
+    <def-attr n="a_adv">
+       <attr-item tags="adv"/>
+    </def-attr>
+</section-def-attrs>
+<section-def-vars>
+    <def-var n="number"/>
+</section-def-vars>
+<section-rules>
+    <!-- for n.sg -> n // n.pl -> ol/<det> + n -->
+    <rule>
+       <pattern>
+         <pattern-item n="nom_pl"/>
+       </pattern>
+      
+       <action>
+         <out>
+           <lu>
+            <lit v="ol"/>
+            <lit-tag v="det"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+           </lu>           
+         </out>
+       </action>
+    </rule>
+    <rule>
+       <pattern>
+         <pattern-item n="nom_sg"/>
+       </pattern>
+      
+       <action>
+         <out>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_nom"/>
+           </lu>           
+         </out>
+       </action>
+    </rule>
+    
+    <!-- adverb transfer rule -->
+    <rule>
+       <pattern>
+         <pattern-item n="adv"/>
+       </pattern>
+      
+       <action>
+         <out>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_adv"/>
+           </lu>           
+         </out>
+       </action>
+    </rule>
+    
+    <!-- adjective transfer rule -->
+    <rule>
+       <pattern>
+         <pattern-item n="adj"/>
+       </pattern>
+      
+       <action>
+         <out>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="a_adj"/>
+           </lu>           
+         </out>
+       </action>
+    </rule>    
+</section-rules>
+</transfer>

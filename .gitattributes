@@ -1,4 +1,26 @@
 * text=auto !eol
+/apertium-bis.bis-eng.dix -text
 /apertium-bis.bis.dix -text
+/apertium-bis.eng.dix -text
+/apertium-bis.eng.rlx -text
 /apertium-en-bis.en-bis.dix -text
+/compile.sh -text
+/compile.sh~ -text
+compile/bis-en.autobil.bin -text svneol=unset#unset
+compile/bis-en.autogen.bin -text svneol=unset#unset
+compile/bis-en.automorf.bin -text svneol=unset#unset
+compile/bis-eng.autobil.bin -text svneol=unset#unset
+compile/bis-eng.autogen.bin -text svneol=unset#unset
+compile/bis-eng.automorf.bin -text svneol=unset#unset
+compile/en-bis.autobil.bin -text svneol=unset#unset
+compile/en-bis.autogen.bin -text svneol=unset#unset
+compile/en-bis.automorf.bin -text svneol=unset#unset
+compile/en-bis.t1x.bin -text
+compile/eng-bis.autobil.bin -text svneol=unset#unset
+compile/eng-bis.autogen.bin -text svneol=unset#unset
+compile/eng-bis.automorf.bin -text svneol=unset#unset
+compile/grammar.bin -text
+compile/test.sh -text
 dev/raw[!!-~]dictionary[!!-~]entries[!!-~]left.txt -text
+/eng-bis.t1x.bin -text
+/transfer.t1x -text
