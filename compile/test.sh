@@ -1,5 +1,4 @@
-echo "sister house horse lake" | lt-proc eng-bis.automorf.bin | cg-proc grammar.bin | \
-  gawk 'BEGIN{RS="$"; FS="/";}{nf=split($1,COMPONengTS,"^"); for(i = 1; i<nf; i++) printf COMPONengTS[i]; if($2 != "") printf("^%s$",$2);}' | \
+echo "I run home" | lt-proc eng-bis.automorf.bin | cg-proc -n -1 grammar.bin | \
   apertium-transfer ../transfer.t1x eng-bis.t1x.bin eng-bis.autobil.bin | \
   lt-proc -g bis-eng.autogen.bin
 

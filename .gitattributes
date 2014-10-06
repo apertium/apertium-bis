@@ -1,4 +1,5 @@
 * text=auto !eol
+/DEADJOE -text
 /apertium-bis.bis-eng.dix -text
 /apertium-bis.bis.dix -text
 /apertium-bis.eng.dix -text
@@ -23,4 +24,5 @@ compile/grammar.bin -text
 compile/test.sh -text
 dev/raw[!!-~]dictionary[!!-~]entries[!!-~]left.txt -text
 /eng-bis.t1x.bin -text
+/svn-commit.tmp -text
 /transfer.t1x -text

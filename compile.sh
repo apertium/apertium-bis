@@ -9,5 +9,5 @@ lt-comp rl apertium-bis.eng.dix compile/eng-bis.autogen.bin
 lt-comp lr apertium-bis.bis-eng.dix compile/bis-eng.autobil.bin
 lt-comp rl apertium-bis.bis-eng.dix compile/eng-bis.autobil.bin 
 
-apertium-preprocess-transfer transfer.t1x eng-bis.t1x.bin
+apertium-preprocess-transfer transfer.t1x compile/eng-bis.t1x.bin
 
