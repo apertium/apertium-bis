@@ -25,8 +25,8 @@
     <def-cat n="vblex">
         <cat-item tags="vblex.*"/>
     </def-cat>
-    <def-cat n="det-pos">
-        <cat-item tags="det.pos.*"/>
+    <def-cat n="det">
+        <cat-item tags="det"/>
     </def-cat>
 </section-def-cats>
 <section-def-attrs>
@@ -74,9 +74,9 @@
         </out>
        </action>
      </rule>
-    <!-- p.68: my/your/her/his n -->
+    <!-- p.68: my/your/her/his + n -->
     <rule>
-        <pattern-item n="det-pos"/>
+        <pattern-item n="det"/>
         <pattern-item n="nom"/>
         
         <action>
@@ -92,7 +92,7 @@
             <b />
             <out>
                 <clip pos="1" side="tl" part="lem"/>
-                <lit tag="prn"/>
+                <lit tag="det"/>
             </out>
         </action>
     </rule>

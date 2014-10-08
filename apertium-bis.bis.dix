@@ -188,11 +188,17 @@
         <e lm="yu"><i>yu</i><par n="prn__prn"/></e>
         <e lm="yumi"><i>yumi</i><par n="prn__prn"/></e>
         <e lm="em"><i>em</i><par n="prn__prn"/></e>
-	    
+	   
 	    <!-- Determiners -->
 	    <e lm="ol"><i>ol</i><par n="det__det"/></e>
 	    
-		<!-- Prepositions -->
+	    <e lm="mi"><i>mi</i><par n="det__det"/></e>
+	    <e lm="yu"><i>yu</i><par n="det__det"/></e>
+        <e lm="olgeta"><i>olgeta</i><par n="det__det"/></e>
+	    <e lm="yumi"><i>yumi</i><par n="det__det"/></e>
+        <e lm="em"><i>em</i><par n="det__det"/></e>
+	    
+        <!-- Prepositions -->
 		<e lm="agensem"><i>agensem</i><par n="pr__pr"/></e>
 		<e lm="bitwin"><i>bitwin</i><par n="pr__pr"/></e>
 		<e lm="blo"><i>blo</i><par n="pr__pr"/></e>

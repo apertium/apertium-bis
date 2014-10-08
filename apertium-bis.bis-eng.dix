@@ -105,17 +105,14 @@
         <e><p><l>em<s n="prn"/></l><r>he<s n="prn"/></r></p></e>
         <e><p><l>em<s n="prn"/></l><r>she<s n="prn"/></r></p></e>
 	    
-	    <!-- oblique cases -->
-        <e><p><l>em<s n="prn"/></l><r>him<s n="det"/></r></p></e>
-        <e><p><l>em<s n="prn"/></l><r>her<s n="det"/></r></p></e>
-        <e><p><l>mi<s n="prn"/></l><r>mine<s n="det"/></r></p></e>
+	    <!-- Determiners -->
+		<e><p><l>ol<s n="det"/></l><r>all<s n="det"/></r></p></e>
+		<e><p><l>em<s n="prn"/></l><r>her<s n="det"/></r></p></e>
+        <e><p><l>mi<s n="prn"/></l><r>my<s n="det"/></r></p></e>
         <e><p><l>yu<s n="prn"/></l><r>your<s n="det"/></r></p></e>
         <e><p><l>olgeta<s n="prn"/></l><r>their<s n="det"/></r></p></e>
         <e><p><l>yumi<s n="prn"/></l><r>our<s n="det"/></r></p></e>
-        
-        
-	    <!-- Determiners -->
-		<e><p><l>ol<s n="det"/></l><r>all<s n="det"/></r></p></e>
+                
 		<!-- Prepositions -->
 		<e><p><l>agensem<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
 		<e><p><l>bitwin<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
