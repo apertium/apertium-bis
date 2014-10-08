@@ -135,6 +135,12 @@
 		<pardef n="urls">
 			<e>	<re>((www.)[a-z\-]+[.][a-z]+)</re>	<p>	  <l></l>	  <r><s n="num"/></r></p></e>
 		</pardef>
+		
+		<!-- Pronoun paradigm -->
+		<pardef n="prn__prn">
+	        <e>      <p>        <l></l>        <r><s n="prn"/></r></p></e>
+   		</pardef>
+		
 		<!-- Determiner paradigm -->
 		<pardef n="det__det">
 			<e>      <p>        <l></l>        <r><s n="det"/></r></p></e>
@@ -174,6 +180,15 @@
 		</pardef>	
 	</pardefs>
 	<section id="main" type="standard">
+	    <!-- Pronouns -->
+	    <e lm="hem"><i>hem</i><par n="prn__prn"/></e>
+        <e lm="mi"><i>mi</i><par n="prn__prn"/></e>
+        <e lm="olgeta"><i>olgeta</i><par n="prn__prn"/></e>
+        <e lm="togeta"><i>togeta</i><par n="prn__prn"/></e>
+        <e lm="yu"><i>yu</i><par n="prn__prn"/></e>
+        <e lm="yumi"><i>yumi</i><par n="prn__prn"/></e>
+        <e lm="em"><i>em</i><par n="prn__prn"/></e>
+	    
 	    <!-- Determiners -->
 	    <e lm="ol"><i>ol</i><par n="det__det"/></e>
 	    
@@ -2708,6 +2723,7 @@
 		<e lm="divaed"><i>divaed</i><par n="noun__n"/></e>
 		<e lm="divelopmen"><i>divelopmen</i><par n="noun__n"/></e>
 		<e lm="do"><i>do</i><par n="noun__n"/></e>
+		<e lm="dog"><i>dog</i><par n="noun__n"/></e>
 		<e lm="Dokas"><i>Dokas</i><par n="noun__n"/></e>
 		<e lm="dokta"><i>dokta</i><par n="noun__n"/></e>
 		<e lm="dola"><i>dola</i><par n="noun__n"/></e>

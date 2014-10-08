@@ -96,6 +96,24 @@
 	</sdefs>
 
 	<section id="main" type="standard">
+	    <!-- Pronouns -->
+	    <e><p><l>hem<s n="prn"/></l><r>it<s n="prn"/></r></p></e>
+        <e><p><l>mi<s n="prn"/></l><r>I<s n="prn"/></r></p></e>
+        <e><p><l>olgeta<s n="prn"/></l><r>they<s n="prn"/></r></p></e>
+        <e><p><l>yu<s n="prn"/></l><r>you<s n="prn"/></r></p></e>
+        <e><p><l>yumi<s n="prn"/></l><r>we<s n="prn"/></r></p></e>
+        <e><p><l>em<s n="prn"/></l><r>he<s n="prn"/></r></p></e>
+        <e><p><l>em<s n="prn"/></l><r>she<s n="prn"/></r></p></e>
+	    
+	    <!-- oblique cases -->
+        <e><p><l>em<s n="prn"/></l><r>him<s n="det"/></r></p></e>
+        <e><p><l>em<s n="prn"/></l><r>her<s n="det"/></r></p></e>
+        <e><p><l>mi<s n="prn"/></l><r>mine<s n="det"/></r></p></e>
+        <e><p><l>yu<s n="prn"/></l><r>your<s n="det"/></r></p></e>
+        <e><p><l>olgeta<s n="prn"/></l><r>their<s n="det"/></r></p></e>
+        <e><p><l>yumi<s n="prn"/></l><r>our<s n="det"/></r></p></e>
+        
+        
 	    <!-- Determiners -->
 		<e><p><l>ol<s n="det"/></l><r>all<s n="det"/></r></p></e>
 		<!-- Prepositions -->
@@ -104,9 +122,12 @@
 		<e><p><l>blo<s n="pr"/></l><r>belong<s n="pr"/></r></p></e>
 		<e><p><l>blong<s n="pr"/></l><r>of<s n="pr"/></r></p></e>
 		<e><p><l>blong<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
-		<e><p><l>from<s n="pr"/></l><r>because of<s n="pr"/></r></p></e>
+		<e><p><l>from<s n="pr"/></l><r>because<b/>of<s n="pr"/></r></p></e>
 		<e><p><l>lo<s n="pr"/></l><r>long<s n="pr"/></r></p></e>
-		<e><p><l>long<s n="pr"/></l><r>in/on/at/with<s n="pr"/></r></p></e>
+		<e><p><l>long<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+		<e><p><l>long<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
+		<e><p><l>long<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
+		<e><p><l>long<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
 		<e><p><l>wetaot<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
 		<e><p><l>wetem<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
 
@@ -2630,6 +2651,7 @@
 		<e><p><l>divaed<s n="n"/></l><r>divide<s n="n"/></r></p></e>
 		<e><p><l>divelopmen<s n="n"/></l><r>development<s n="n"/></r></p></e>
 		<e><p><l>do<s n="n"/></l><r>door<s n="n"/></r></p></e>
+		<e><p><l>dog<s n="n"/></l><r>dog<s n="n"/></r></p></e>
 		<e><p><l>Dokas<s n="n"/></l><r>Dorcas<s n="n"/></r></p></e>
 		<e><p><l>dokta<s n="n"/></l><r>doctor<s n="n"/></r></p></e>
 		<e><p><l>dola<s n="n"/></l><r>dollar<s n="n"/></r></p></e>

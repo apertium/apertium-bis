@@ -35,6 +35,7 @@ LIST Pos = pos ;
 LIST Months = "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" ;
 LIST Seasons = "winter" "spring" "summer" "autumn" ;
 LIST Year = year ; 
+LIST mine = "mine" ;
 
 LIST 1p = p1 ;
 LIST 2p = p2 ;
@@ -281,6 +282,8 @@ REMOVE Pron IF (0 Det OR Pron) (1 NUM) ;
 SELECT Year IF (-1 ("in") OR ("after") OR ("since") OR ("of") OR ("throughout")) (NOT 1 N);
 
 SELECT Year IF (-1 Seasons OR Months);
+
+SELECT N IF (0 Pron OR N) ;
  
 AFTER-SECTIONS 
 
